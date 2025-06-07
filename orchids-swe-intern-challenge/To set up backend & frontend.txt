@@ -1,0 +1,14 @@
+To set up backend:
+cd orchids-challenge
+cd backend
+pip install uv
+uv sync
+uv run fastapi dev
+
+To setup frontend:
+cd ..
+cd frontend
+npm install
+npm run dev
+
+https://www.w3schools.com
